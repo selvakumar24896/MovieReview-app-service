@@ -1,4 +1,4 @@
-package Model;
+package com.selva.MovieReview_app_service.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,8 +13,8 @@ import java.util.List;
 
 @Document(collection = "movies")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+@AllArgsConstructor // For constructor with all the non-static fields of the class
+@NoArgsConstructor  // For constructor without arguments
 public class Movie {
 
     @Id
@@ -25,6 +25,6 @@ public class Movie {
     private List<String> genres;
     private String poster;
     private String backdrops;
-    @DocumentReference
+    @DocumentReference // It will keep the Review in the separate collection else the object will be embedded directly inside the parent document
     private List<Review> reviewIds;
 }

@@ -1,4 +1,4 @@
-package Model;
+package com.selva.MovieReview_app_service.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
