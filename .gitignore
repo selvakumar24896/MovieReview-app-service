@@ -32,3 +32,30 @@ build/
 ### VS Code ###
 .vscode/
 /src/main/resources/.env
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/UI_reactjs/moview-review-app-ui/node_modules
+/UI_reactjs/moview-review-app-ui/.pnp
+/UI_reactjs/moview-review-app-ui/.pnp.js
+
+# testing
+/UI_reactjs/moview-review-app-ui/coverage
+
+# production
+/UI_reactjs/moview-review-app-ui/build
+
+# misc
+/UI_reactjs/moview-review-app-ui/.DS_Store
+/UI_reactjs/moview-review-app-ui/.env.local
+/UI_reactjs/moview-review-app-ui/.env.development.local
+/UI_reactjs/moview-review-app-ui/.env.test.local
+/UI_reactjs/moview-review-app-ui/.env.production.local
+
+/UI_reactjs/moview-review-app-ui/npm-debug.log*
+/UI_reactjs/moview-review-app-ui/yarn-debug.log*
+/UI_reactjs/moview-review-app-ui/yarn-error.log*
+
