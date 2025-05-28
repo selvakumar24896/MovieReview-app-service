@@ -25,6 +25,7 @@ public class Movie {
     private List<String> genres;
     private String poster;
     private String backdrops;
+    private String trailerLink;
     @DocumentReference // It will keep the Review in the separate collection else the object will be embedded directly inside the parent document
     private List<Review> reviewIds;
 }
